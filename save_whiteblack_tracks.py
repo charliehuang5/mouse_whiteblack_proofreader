@@ -56,11 +56,6 @@ def proofread_singlevid(vidpath, infdict):
     cap.release()
     return mask_value_mat, dists_used
 
-
-
-
-
-
 def proofreading_wrapper(infs_path, vids_path):
     #loads in two lists that map to each other (index wise)
     inf_files, vid_files = utils.prep_files(infs_path,vids_path)

@@ -114,17 +114,5 @@ def main():
     plt.legend()
     plt.show()
 
-    # plt.figure(figsize=(11,6))
-    # plt.hist(mvm_vec_list)
-    # plt.savefig(save_path_pics + 'mvm_summary_hist.png')
-
-        
-        
-    # print(corresp_inf_files)
-    # print("%%%%")
-    # print(vidfiles_sorted)
-    # for file in os.listdir(savepath)
-
-
 if __name__ == '__main__':
     main()
